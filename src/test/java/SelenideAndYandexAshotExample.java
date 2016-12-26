@@ -24,7 +24,6 @@ public class SelenideAndYandexAshotExample {
 
     @BeforeClass
     protected void before() throws Throwable {
-        System.out.println("Setting Chromium as a default browser.");
         tempDirectory = Files.createTempDirectory("test-ashot-directory");
     }
 
